@@ -4,7 +4,8 @@
   "description": "A small app made to compare state management in React Redux and Vue Vuex",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "author": "Naomi Mine",
   "license": "MIT",
